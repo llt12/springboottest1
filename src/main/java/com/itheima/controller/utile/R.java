@@ -22,4 +22,8 @@ public class R {
         this.flag = false;
         this.msg=msg;
     }
+
+    public R(Boolean flag) {
+        this.flag = flag;
+    }
 }
