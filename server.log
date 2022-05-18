@@ -1,3 +1,18 @@
-2022-05-18 13:23:15.674  INFO 12600 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-05-18 13:23:15.688  INFO 12600 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-05-18 13:23:15.691  INFO 12600 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-05-18 14:48:49.730  INFO 15708 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closing ...
+2022-05-18 14:48:49.735  INFO 15708 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2022-05-18 14:48:49.986  INFO 15708 --- [restartedMain] com.itheima.Springboottest1Application   : Starting Springboottest1Application using Java 1.8.0_231 on DESKTOP-5HRFDOT with PID 15708 (D:\JavaProject\springboot\springboottest1\target\classes started by liuya in D:\JavaProject\springboot\springboottest1)
+2022-05-18 14:48:49.986  INFO 15708 --- [restartedMain] com.itheima.Springboottest1Application   : No active profile set, falling back to default profiles: default
+2022-05-18 14:48:50.423  INFO 15708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2022-05-18 14:48:50.424  INFO 15708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-18 14:48:50.425  INFO 15708 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-05-18 14:48:50.472  INFO 15708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-18 14:48:50.472  INFO 15708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 482 ms
+2022-05-18 14:48:50.514  INFO 15708 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-18 14:48:50.545  INFO 15708 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2022-05-18 14:48:51.640  INFO 15708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-18 14:48:51.654  INFO 15708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2022-05-18 14:48:51.658  INFO 15708 --- [restartedMain] com.itheima.Springboottest1Application   : Started Springboottest1Application in 1.757 seconds (JVM running for 926.362)
+2022-05-18 14:48:51.661  INFO 15708 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-18 14:48:53.928  INFO 15708 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 14:48:53.929  INFO 15708 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-18 14:48:53.930  INFO 15708 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

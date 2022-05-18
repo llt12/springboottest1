@@ -24,6 +24,23 @@ public class BookController {
         return new R(service.removeById(id));
     }
 
+    @PostMapping
+    public R save(@RequestBody Book book){
+        System.out.println("======添加操作=======");
+        return new R(service.save(book));
+    }
+
+    @GetMapping("{id}")
+    public R getByid(@PathVariable int id){
+        Book byId = service.getById(id);
+        return new R(true,byId);
+    }
+
+    @PutMapping
+    public R update(@RequestBody Book book){
+//        System.out.println("修改输出");
+        return new R(service.updateById(book));
+    }
 
     @GetMapping("{currentpage}/{pageSize}")
     public R getPage(@PathVariable int currentpage,@PathVariable  int pageSize, Book book){
